@@ -4,62 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Task management</title>
 </head>
 <body>
-    <header>
-        <a href="#">Takbit</a>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Features</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </header>
-    <section class="section1">
-        <div class="section1Contents">
-            <h1>Organize, plan, and  collaborate with ease.</h1>
-            <p class="text">Taskbit is a simple, elegant and easy-to-use 
-                project managment tool. It is designed to help either achive
-                goals,or group of individualns collaborate and project task managment.
-            </p>
-            <button>Sign up</button>
-        </div>
-        <div class="section1Image">
-            <img src="./images/task-app.svg" alt="Hero Image">
-        </div>
+    <section id="hero">
+        <header class="container flex">
+            <a href="#" class="logoText">
+                <img src="./images/logo1.svg" alt="Taskbit logo">
+                Taskbit
+            </a>
+            <nav class="navbar">
+                <ul class="items">
+                    <li class="item"><a href="./index.html">Home</a></li>
+                    <li class="item"><a href="#">Features</a></li>
+                    <li class="item"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="sectionHero container flex">
+            <div class="sectionHeroContents">
+                <h1 class="mainText">Organize, plan, and  collaborate with ease.</h1>
+                <p class="secondaryText">Taskbit is a simple, elegant and easy-to-use 
+                    project managment tool. It is designed to help either achive
+                    goals,or group of individualns collaborate and project task managment.
+                </p>
+                <button class="button">Sign up</button>
+            </div>
+            <div class="sectionHeroImage">
+                <img src="./images/task-app.png" alt="Hero Image">
+            </div>
+        </section>
     </section>
-    <section class="section2">
-        <div>
-            <h2>Focus On Getting This Done</h2>
-            <div>
+    <section class="section2 container">
+        <div class="informationSection">
+            <h2 class="informationText">Focus On Getting Things Done</h2>
+            <div class="informationContents">
                 <article>
                     <img src="./images/efficiency.svg" alt="efficiency Image">
-                    <p>Improve Efficiency</p>
-                </article>
-                <article>
-                    <img src="./images/quality.svg" alt="quality Image">
-                    <p>Improve Quality</p>
-                </article>
-                <article>
-                    <img src="./images/accountability.svg" alt="accountability Image">
-                    <p>Improve Accountability</p>
+                    <div>
+                        <h3>Improve Efficiency</h3>
+                        <p class="secondaryText">More focused      communication, real-time
+                        updates, never miss or forget a task.
+                        </p>
+                    </div>
                 </article>
                 <article>
                     <img src="./images/efficiency.svg" alt="efficiency Image">
-                    <p>Improve Efficiency</p>
+                    <div>
+                        <h3>Improve Quality</h3>
+                        <p class="secondaryText">Clearer communication and organisation leads to fewer mistakes.
+                        </p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./images/efficiency.svg" alt="efficiency Image">
+                    <div>
+                        <h3>Improve Accountability</h3>
+                        <p class="secondaryText">Through detailed record keeping and reporting.
+                        </p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./images/efficiency.svg" alt="efficiency Image">
+                    <div>
+                        <h3>Improve Efficiency</h3>
+                         <p class="secondaryText">Clearer communication and organisation leads to fewer mistakes.</p>
+                    </div>
                 </article>
             </div>  
         </div>
     </section>
     <section class="section3">
-        <p>"That helps us organize and coordinate our workflow.
-            It's been an invaluable tool to help us stay on top 
-            of our projects, as well as plan ahed and stay ahed of
-            dead.”
-        </p>
-        <strong>Thor</strong>
+        <div class="section3Contents">
+            <p>"That helps us organize and coordinate our workflow.
+                It's been an invaluable tool to help us stay on top 
+                of our projects, as well as plan ahed and stay ahed of
+                dead.”
+            </p>
+            <strong>-Thor</strong>
+        </div>
     </section>
     <section class="section4">
         <h3>Call to action it's time!</h3>
