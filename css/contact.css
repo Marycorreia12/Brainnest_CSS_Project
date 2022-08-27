@@ -1,0 +1,11 @@
+header{
+    min-height: 10vh;
+}
+
+header .logoText{
+    color: var(--secondary-color);
+}
+
+header .navbar .item a{
+    color: var(--secondary-color);
+}

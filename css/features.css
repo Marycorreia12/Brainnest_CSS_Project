@@ -1,0 +1,67 @@
+header{
+    min-height: 10vh;
+}
+
+header .logoText{
+    color: var(--secondary-color);
+}
+
+header .navbar .item a{
+    color: var(--secondary-color);
+}
+
+.sectionHero{
+    min-height: 90vh;
+}
+
+/* Section 1 & 2 */
+
+.section1, .section2{
+    margin-bottom: 80px;
+}
+
+.section1.flex, .section2.flex{
+    gap: 100px;
+}
+
+.section1 img, .section2 img{
+    width: 496px;
+}
+
+.sectionContents{
+    width: 534px;
+}
+
+.sectionContents h2{
+    margin-bottom: 20px;
+}
+
+.sectionContents .secondaryText{
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+}
+
+/* Section 3 */
+
+.section3{
+    position: relative;
+}
+
+.section3Content{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.section3Content .secondaryText{
+    width: 473px;
+    margin: 20px 0 30px 0;
+    color: var(--secondary-color);
+    line-height: 27px;
+}
