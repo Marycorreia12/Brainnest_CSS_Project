@@ -89,9 +89,6 @@ header .navbar .item a{
     justify-content: center;
     color: var(--secondary-color);
     padding: 0 20px;
- }
-
- .section3 p{
     font-size: 36px;
     margin-bottom: 10px; 
     font-weight: 300;
@@ -150,7 +147,7 @@ header .navbar .item a{
     .informationSectionContents{
         gap: 10px;
     }
-    .section3 p{
+    .section3Contents{
         font-size: 24px;
     }
     .section4Contents strong{
@@ -192,7 +189,7 @@ header .navbar .item a{
         padding: 50px 0;
         margin-bottom: 50px;
      }
-     .section3 p{
+     .section3Contents{
         font-size: 20px;
     }
     .section4{
