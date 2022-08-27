@@ -96,6 +96,10 @@ header .logoText{
     gap: 10px;
 }
 
+header .logoImage{
+    color: var(--primary-color);
+}
+
 header .navbar .items{
     display: flex;
     gap: 20px;/*  */
