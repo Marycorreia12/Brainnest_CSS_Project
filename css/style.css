@@ -3,7 +3,7 @@
 .hero{
     background-color: var(--secondary-color);
     min-height: 100vh;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 header .logoText{
