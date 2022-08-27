@@ -50,26 +50,26 @@ header .navbar .item a{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 20px;
 }
 
- .section2 article{
-    width: 160px;
-    min-height: 122px;
+ .section2 figure{
+    max-width: 220px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
  }
 
- .section2 .informationSectionContents .texts{
+ .section2 .informationSectionContents img{
+    width: 150px;
+ }
+
+ .section2 .informationSectionContents figcaption{
     color: var(--secondary-color);
     margin-top: 10px;
-    text-align: center;
     font-size: 18px;
     line-height: 27px;
- }
-
- .section2 article p{
-    text-align: center;
-    margin-top: 5px;
-    color: var(--secondary-color);
+    width: 200px;
  }
 
  /* Section 3 */
